@@ -8,4 +8,4 @@ app.secret_key = os.urandom(24)
 app.config.from_pyfile('_config.py')
 db = SQLAlchemy(app)
 
-import excuse_me.views
+import excuse_me.views.main

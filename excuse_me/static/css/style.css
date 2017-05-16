@@ -1,0 +1,46 @@
+#content_wrapper {
+    display: block;
+    margin: auto;
+    width: 100%;
+    vertical-align: middle;
+}
+#excuse{
+    position: relative;
+    top: 400px;
+    text-align: center;
+    font-size: 36px;
+    color: #545454;
+    font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
+}
+.button_wrapper{
+
+}
+.make_excuse{
+    position: relative;
+    top: 400px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    background-color: #f44336;
+    color: white;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 50px;
+    }
+.make_excuse:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.divider{
+    position: relative;
+    top: 400px;
+    width: 60%;
+    color: gray;
+}

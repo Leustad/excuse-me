@@ -1,6 +1,7 @@
+import os
 import socket
-
 from excuse_me import app
 
-hostname = socket.gethostname()
-app.run('127.0.0.1', port=5001)
+port = int(os.environ.get('PORT', 33508))
+# hostname = socket.gethostname()
+app.run(host='0.0.0.0', port=port)
