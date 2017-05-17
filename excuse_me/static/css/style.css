@@ -12,9 +12,6 @@
     color: #545454;
     font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
 }
-.button_wrapper{
-
-}
 .make_excuse{
     position: relative;
     top: 400px;
@@ -27,16 +24,18 @@
     margin-left:auto;
     margin-right: auto;
     width: 200px;
-    background-color: #f44336;
+    background-color: lightslategray;
     color: white;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
     height: 50px;
+    box-shadow: 10px 10px 15px #545454;
     }
 .make_excuse:hover{
-    background-color: red;
+    background-color: darkslategrey;
     cursor: pointer;
+    color: lightblue;
 }
 .divider{
     position: relative;
